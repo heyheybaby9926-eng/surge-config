@@ -22,3 +22,12 @@ DOMAIN-KEYWORD,discord-attachments
 DOMAIN-KEYWORD,discord-meter
 DOMAIN-SUFFIX,discord.media
 IP-CIDR,162.158.0.0/16,no-resolve
+# Discord Voice Gateway & STUN
+IP-CIDR,162.158.0.0/16,no-resolve
+IP-CIDR,199.232.0.0/16,no-resolve
+IP-CIDR,104.16.0.0/12,no-resolve
+IP-CIDR,141.101.0.0/16,no-resolve
+# Discord 专用的 STUN 端口（UDP 3478）
+DEST-PORT,3478,UDP
+
+REJECT,UDP,443
