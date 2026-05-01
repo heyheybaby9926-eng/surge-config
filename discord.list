@@ -1,21 +1,8 @@
-[Rule]
-# --- Discord 域名列表 ---
-DOMAIN-SUFFIX,discord.com,Discord
-DOMAIN-SUFFIX,discord.gg,Discord
-DOMAIN-SUFFIX,discord.media,Discord
-DOMAIN-SUFFIX,discordapp.com,Discord
-DOMAIN-SUFFIX,discordapp.net,Discord
-DOMAIN-SUFFIX,discordstatus.com,Discord
-
-# --- 辅助与 CDN ---
-DOMAIN,discord.gift,Discord
-DOMAIN-SUFFIX,dis.gd,Discord
-DOMAIN-SUFFIX,discord.co,Discord
-DOMAIN-SUFFIX,discord.design,Discord
-DOMAIN-SUFFIX,discord.dev,Discord
-DOMAIN-SUFFIX,discord.new,Discord
-DOMAIN-SUFFIX,discord.tools,Discord
-
-# --- 语音服务与 STUN (UDP 流量关键) ---
-# Discord 语音服务器通常使用这些子域名
-DOMAIN-KEYWORD,discord-attachments,Discord
+DOMAIN-SUFFIX,discord.com
+DOMAIN-SUFFIX,discord.gg
+DOMAIN-SUFFIX,discord.media
+DOMAIN-SUFFIX,discordapp.com
+DOMAIN-SUFFIX,discordapp.net
+DOMAIN-SUFFIX,discordstatus.com
+DOMAIN,discord.gift
+DOMAIN-SUFFIX,dis.gd
