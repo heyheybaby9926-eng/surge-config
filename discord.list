@@ -16,3 +16,9 @@ DOMAIN-SUFFIX,discord.co
 DOMAIN-SUFFIX,discord.dev
 DOMAIN-SUFFIX,discord.new
 DOMAIN,discord.gift
+
+# 语音与直播关键规则
+DOMAIN-KEYWORD,discord-attachments
+DOMAIN-KEYWORD,discord-meter
+DOMAIN-SUFFIX,discord.media
+IP-CIDR,162.158.0.0/16,no-resolve
