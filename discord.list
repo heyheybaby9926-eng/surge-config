@@ -5,33 +5,18 @@
 # DOMAIN-SUFFIX: 11
 # TOTAL: 11
 
-DOMAIN-SUFFIX,discord.com
-DOMAIN-SUFFIX,discord.gg
-DOMAIN-SUFFIX,discord.media
-DOMAIN-SUFFIX,discordapp.com
-DOMAIN-SUFFIX,discordapp.net
-DOMAIN-SUFFIX,discordstatus.com
-DOMAIN-SUFFIX,dis.gd
-DOMAIN-SUFFIX,discord.co
-DOMAIN-SUFFIX,discord.dev
-DOMAIN-SUFFIX,discord.new
-DOMAIN,discord.gift
+DOMAIN-SUFFIX,discord.com,PROXY
+DOMAIN-SUFFIX,discord.gg,PROXY
+DOMAIN-SUFFIX,discord.media,PROXY
+DOMAIN-SUFFIX,discordapp.com,PROXY
+DOMAIN-SUFFIX,discordapp.net,PROXY
+DOMAIN-SUFFIX,discordstatus.com,PROXY
+DOMAIN-SUFFIX,dis.gd,PROXY
+DOMAIN-SUFFIX,discord.co,PROXY
+DOMAIN-SUFFIX,discord.dev,PROXY
+DOMAIN-SUFFIX,discord.new,PROXY
+DOMAIN,discord.gift,PROXY
 
-# 语音与直播关键规则
-DOMAIN-KEYWORD,discord-attachments
-DOMAIN-KEYWORD,discord-meter
-DOMAIN-SUFFIX,discord.media
-IP-CIDR,162.158.0.0/16,no-resolve
-# Discord Voice Gateway & STUN
-IP-CIDR,162.158.0.0/16,no-resolve
-IP-CIDR,199.232.0.0/16,no-resolve
-IP-CIDR,104.16.0.0/12,no-resolve
-IP-CIDR,141.101.0.0/16,no-resolve
-# Discord 专用的 STUN 端口（UDP 3478）
-DEST-PORT,3478,UDP
-
-REJECT,UDP,443
-
-DOMAIN,stun.l.google.com
-DOMAIN-KEYWORD,stun
-DOMAIN-KEYWORD,turn
+DOMAIN-KEYWORD,discord-attachments,PROXY
+DOMAIN-KEYWORD,discord-meter,PROXY
+DOMAIN-KEYWORD,stun,PROXY
