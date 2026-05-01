@@ -1,8 +1,18 @@
+# NAME: Discord
+# AUTHOR: Gemini
+# REPO: https://github.com/heyheybaby9926-eng/surge-config
+# UPDATED: 2026-05-01 22:45:00
+# DOMAIN-SUFFIX: 11
+# TOTAL: 11
+
 DOMAIN-SUFFIX,discord.com
 DOMAIN-SUFFIX,discord.gg
 DOMAIN-SUFFIX,discord.media
 DOMAIN-SUFFIX,discordapp.com
 DOMAIN-SUFFIX,discordapp.net
 DOMAIN-SUFFIX,discordstatus.com
-DOMAIN,discord.gift
 DOMAIN-SUFFIX,dis.gd
+DOMAIN-SUFFIX,discord.co
+DOMAIN-SUFFIX,discord.dev
+DOMAIN-SUFFIX,discord.new
+DOMAIN,discord.gift
